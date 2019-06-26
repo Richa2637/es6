@@ -1,0 +1,43 @@
+.search_icon {
+    float: right;
+    position: relative;
+    right: 5px;
+    top: -35px;
+    font-size: 20px;
+    color:black;}
+
+    #searchForm {
+        /* position: relative;
+        margin: 0 auto;
+        width: 960px;
+        top: 140px; */
+        padding-left: 149px;
+        margin-left: 200px;
+        padding-right: -32px;
+        margin-right: 0px;
+        position: center;
+        /* margin: 0 auto; */
+        width: 960px;
+        top: 288px;
+        padding-top: 0px;
+        margin-top: 20px;
+        position: absolute;
+    
+    }
+    
+    .search_input {
+        background:whitesmoke;
+    }
+
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color:#fff; 
+      }
+      ::-moz-placeholder { /* Firefox 19+ */
+        color:#fff
+      }
+      :-ms-input-placeholder { /* IE 10+ */
+        color:#fff
+      }
+      :-moz-placeholder { /* Firefox 18- */
+        color:#fff
+      }

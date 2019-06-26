@@ -1,0 +1,77 @@
+.navbar-brand {
+    background: url('../images/icon.png');
+
+    background-position: 0 -70px;
+    border: none;
+    display: block;
+    height: 49px;
+    left: 20px;
+    position: absolute;
+    top :4px;
+    width: 101px;
+    z-index: 10000;
+    text-indent: -999px;
+}
+
+.carousel img {
+    height: 500px;
+    width: 100px;
+}
+
+#carouselExampleSlidesOnly{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.search_icon {
+    float: right;
+    position: relative;
+    right: 5px;
+    top: -35px;
+    font-size: 20px;
+    color: #999999;
+    
+    
+}
+
+#searchForm {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    top: 140px;
+
+}
+
+.search_input {
+    background: #11111145;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:#fff; 
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color:#fff
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color:#fff
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color:#fff
+  }
+
+  .movie_block {
+    position: relative;
+    top:170px;
+  }
+  .col-md-3 {
+    float: left;
+  }
+
+  .card {
+    float: left;
+  }
+
+  .col-md-3 .card{
+    width: auto !important;
+  }
